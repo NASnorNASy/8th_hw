@@ -1,0 +1,231 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.conteiner900 {
+    align-content: center;
+    background-color: white;
+    padding: 80px;
+    border: 1px grey solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.conteiner600900 {
+    display: none;
+}
+
+.conteiner600 {
+    display: none;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
+
+input {
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-bottom: 1px grey solid;
+}
+
+.ff {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.submit {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#submit {
+    padding: 15px;
+    width: 150px;
+    background-color: rgb(9, 114, 114);
+    color: whitesmoke;
+    border: none;
+    align-content: center;
+}
+
+#myChoise {
+    width: 180px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px grey solid;
+
+}
+
+.personal1 {
+    margin-top: 10px;
+}
+
+#username {
+    width: 360px;
+}
+
+#emaill {
+    width: 360px;
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+    .conteiner900 {
+        display: none;
+    }
+
+    .conteiner600 {
+        display: none;
+    }
+
+    .conteiner600900 {
+        align-content: center;
+        background-color: white;
+        padding: 80px;
+        border: 1px grey solid;
+        display: flex;
+        flex-direction: column;
+    }
+
+    img {
+        width: 30px;
+        height: 30px;
+    }
+
+    input {
+        padding: 10px;
+        background-color: white;
+        border: none;
+        border-bottom: 1px grey solid;
+    }
+
+    .ff {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .submit {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    #submit {
+        padding: 15px;
+        width: 150px;
+        background-color: rgb(9, 114, 114);
+        color: whitesmoke;
+        border: none;
+        align-content: center;
+    }
+
+    #myChoise {
+        width: 180px;
+        height: 40px;
+        border: none;
+        border-bottom: 1px grey solid;
+
+    }
+
+    .personal1 {
+        margin-top: 10px;
+    }
+
+    #username {
+        width: 360px;
+    }
+
+    #emaill {
+        width: 360px;
+    }
+}
+
+@media (max-width: 600px) {
+    .conteiner900 {
+        display: none;
+    }
+
+    .conteiner600 {
+        align-content: center;
+        background-color: white;
+        padding: 80px;
+        border: 1px grey solid;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .conteiner600900 {
+        display: none;
+    }
+
+    img {
+        width: 30px;
+        height: 30px;
+    }
+
+    input {
+        padding: 10px;
+        background-color: white;
+        border: none;
+        border-bottom: 1px grey solid;
+    }
+
+    .ff {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .submit {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    #submit {
+        padding: 15px;
+        width: 150px;
+        background-color: rgb(9, 114, 114);
+        color: whitesmoke;
+        border: none;
+        align-content: center;
+    }
+
+    #myChoise {
+        width: 395px;
+        height: 40px;
+        border: none;
+        border-bottom: 1px grey solid;
+
+    }
+
+    #pswd {
+        width: 360px;
+    }
+
+    #ss {
+        width: 395px;
+    }
+
+    #pswd1 {
+        width: 395px;
+    }
+
+    .dd {
+        width: 395px;
+    }
+
+    .personal1 {
+        margin-top: 10px;
+    }
+
+    #username {
+        width: 360px;
+    }
+
+    #emaill {
+        width: 360px;
+    }
+}
