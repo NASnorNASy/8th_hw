@@ -1,0 +1,48 @@
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+    color: grey;
+}
+
+body {
+    background-color: rgb(208, 208, 208);
+}
+
+form {
+    width: 300px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgb(95, 191, 191);
+}
+
+.ro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+h4 {
+    padding: 10px;
+    background-color: orangered;
+    font-weight: bold;
+    color: white;
+}
+
+#cvv {
+    width: 55px;
+    height: auto;
+}
+
+input {
+    background-color: rgb(145, 217, 217);
+    border: none;
+    border-bottom: 1px grey solid;
+    color: grey;
+
+}
